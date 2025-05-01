@@ -52,7 +52,7 @@ asic_count = None
 
 # Add these constants to the configuration section
 min_allowed_voltage = 1000  # Minimum allowed core voltage
-min_allowed_frequency = 400  # Minimum allowed frequency
+min_allowed_frequency = 450  # Minimum allowed frequency
 
 # Validate core voltages
 if initial_voltage > max_allowed_voltage:
