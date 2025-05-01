@@ -17,7 +17,7 @@ def parse_arguments():
     parser.add_argument('bitaxe_ip', nargs='?', help='IP address of the Bitaxe (e.g., 192.168.2.26)')
     parser.add_argument('-v', '--voltage', type=int, default=1150,
                        help='Initial voltage in mV (default: 1150)')
-    parser.add_argument('-f', '--frequency', type=int, default=500,
+    parser.add_argument('-f', '--frequency', type=int, default=525,
                        help='Initial frequency in MHz (default: 500)')
     
     # If no arguments are provided, print help and exit
