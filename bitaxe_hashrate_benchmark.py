@@ -17,8 +17,8 @@ def parse_arguments():
     parser.add_argument('bitaxe_ip', nargs='?', help='IP address of the Bitaxe (e.g., 192.168.2.26)')
     parser.add_argument('-v', '--voltage', type=int, default=1150,
                        help='Initial voltage in mV (default: 1150)')
-    parser.add_argument('-f', '--frequency', type=int, default=525,
-                       help='Initial frequency in MHz (default: 525)')
+    parser.add_argument('-f', '--frequency', type=int, default=500,
+                       help='Initial frequency in MHz (default: 500)')
     
     # If no arguments are provided, print help and exit
     if len(sys.argv) == 1:
@@ -35,7 +35,7 @@ initial_frequency = args.frequency
 
 # Configuration
 voltage_increment = 20
-frequency_increment = 25
+frequency_increment = 10
 benchmark_time = 600          # 10 minutes benchmark time
 sample_interval = 15          # 15 seconds sample interval
 max_temp = 70                 # Will stop if temperature reaches or exceeds this value
