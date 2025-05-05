@@ -36,7 +36,7 @@ initial_frequency = args.frequency
 # Configuration
 voltage_increment = 20
 frequency_increment = 10
-benchmark_time = 600          # 10 minutes benchmark time
+benchmark_time = 1200          # 10 minutes benchmark time
 sample_interval = 15          # 15 seconds sample interval
 max_temp = 70                 # Will stop if temperature reaches or exceeds this value
 max_allowed_voltage = 1400    # Maximum allowed core voltage
