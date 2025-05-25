@@ -35,20 +35,20 @@ initial_frequency = args.frequency
 
 # Configuration
 voltage_increment = 20
-frequency_increment = 25
-benchmark_time = 600          # 10 minutes benchmark time
-sample_interval = 15          # 15 seconds sample interval
-max_temp = 66                 # Will stop if temperature reaches or exceeds this value
+frequency_increment = 10
+benchmark_time = 1200          # 10 minutes benchmark time
+sample_interval = 3          # 15 seconds sample interval
+max_temp = 70                 # Will stop if temperature reaches or exceeds this value
 max_allowed_voltage = 1400    # Maximum allowed core voltage
 max_allowed_frequency = 1200  # Maximum allowed core frequency
 max_vr_temp = 86              # Maximum allowed voltage regulator temperature
 min_input_voltage = 4800      # Minimum allowed input voltage
 max_input_voltage = 5500      # Maximum allowed input voltage
-max_power = 40                # Max of 40W because of DC plug
+max_power = 60                # Max of 40W because of DC plug
 
 # Add these variables to the global configuration section
 small_core_count = None
-asic_count = None
+asic_count = 1
 
 # Add these constants to the configuration section
 min_allowed_voltage = 1000  # Minimum allowed core voltage
